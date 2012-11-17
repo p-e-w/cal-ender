@@ -1,5 +1,5 @@
 # cal-ender: Personal calendar reform
-[Version 0.0.4](http://semver.org/), last modified 6-Ples-2012 (November 17th, 2012)
+[Version 0.0.5](http://semver.org/), last modified 6-Ples-2012 (November 17th, 2012)
 
 > **Note:**
 > 
@@ -21,9 +21,9 @@ For the design of cal-ender's date arithmetic and alignment with the Gregorian c
 ## Description
 A cal-ender date is given by a day, a month and a year. Every Gregorian date is assigned exactly one cal-ender date, and vice versa. The Gregorian weekday naming scheme is retained in cal-ender and the weekday of a cal-ender date is taken to be that of its corresponding date in the Gregorian calendar.
 
-A cal-ender year consists of 13 months. The first 12 months always consist of precisely 28 days, or four weeks, each. The 13th month has either 28 or 35 days, depending on the year. cal-ender can thus be classified as a [13 month](http://en.wikipedia.org/wiki/13-month_calendar), [leap week](http://en.wikipedia.org/wiki/Leap_week_calendar) calendar.
+A cal-ender year consists of 13 months. The first 12 months always consist of precisely 28 days, or four weeks, each. The 13th month has either 28 or 35 days, bridging the years. cal-ender can thus be classified as a [13 month](http://en.wikipedia.org/wiki/13-month_calendar), [leap week](http://en.wikipedia.org/wiki/Leap_week_calendar) calendar.
 
-Every cal-ender year starts with the first Monday in Gregorian March, i.e. the first day of the first month of a cal-ender year always falls on a Gregorian date between March 1st and March 7th. Every cal-ender year thus ends with a Sunday. The length of the 13th month is adapted to bridge the years.
+Every cal-ender year starts with the first Monday in Gregorian March, i.e. the first day of the first month of a cal-ender year always falls on a Gregorian date between March 1st and March 7th. Every cal-ender year thus ends with a Sunday.
 
 It follows that the weekday of a cal-ender date is independent of year and month. This makes cal-ender a doubly [perennial calendar](http://en.wikipedia.org/wiki/Perennial_calendar) both in terms of years and months.
 
