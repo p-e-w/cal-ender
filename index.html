@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="javascripts/moment.min.js"></script>
-    <script src="javascripts/cal-ender.js"></script>
+    <script src="http://raw.github.com/p-e-w/cal-ender/master/JavaScript/moment.min.js"></script>
+    <script src="http://raw.github.com/p-e-w/cal-ender/master/JavaScript/cal-ender.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     <!--[if lt IE 9]>
@@ -24,12 +24,21 @@
         <p>A modern, practical date model simplifying what people actually use a calendar for.</p>
         <p class="view"><a href="https://github.com/p-e-w/cal-ender">View the Project on GitHub <small>p-e-w/cal-ender</small></a></p>
         <ul>
-          <li><a href="https://github.com/p-e-w/cal-ender/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/p-e-w/cal-ender/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/p-e-w/cal-ender">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
+
+<blockquote>
+<p style="font-weight: bold; text-align: center; font-style: normal;">Welcome!&nbsp;&nbsp;Today is <span id="calEnderDate" style="margin: 0.3em; font-size: larger; color: red;">CAL_ENDER_DATE</span> (<span id="gregorianDate">GREGORIAN_DATE</span>)</p>
+<script>
+$(document).ready(function() {
+	$('#calEnderDate').text(formatCalEnderDate(getCurrentCalEnderDate()));
+	$('#gregorianDate').text(moment().format('MMMM Do, YYYY'));
+});
+</script>
+</blockquote>
+
         <h1>cal-ender: Personal calendar reform</h1>
 
 <p><a href="http://semver.org/">Version 0.0.5</a>, last modified 6-Ples-2012 (November 17th, 2012)</p>
