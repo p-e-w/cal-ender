@@ -1,5 +1,5 @@
 # cal-ender: Personal calendar reform
-Version 0.0.3, last modified 2-Ples-2012 (November 13th, 2012)
+[Version 0.0.4](http://semver.org/), last modified 6-Ples-2012 (November 17th, 2012)
 
 > **Note:**
 > 
