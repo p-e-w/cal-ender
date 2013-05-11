@@ -79,7 +79,7 @@ This section aims to not only list but actually *derive* the key properties of t
 - [Addition](http://en.wikipedia.org/wiki/Addition) and [multiplication](http://en.wikipedia.org/wiki/Multiplication) of integers, signified by the operators `+` and `*`, respectively
 - The [modulo](http://en.wikipedia.org/wiki/Modulo_operation) or remainder operation on the integers, signified by the operator `%`
 - The [absolute value](http://en.wikipedia.org/wiki/Absolute_value) of an integer `n`, signified by `|n|`
-- Basic [functional notation](http://en.wikipedia.org/wiki/Function_(mathematics)) of the form `f(n) = …`
+- Basic [functional notation](http://en.wikipedia.org/wiki/Function_%28mathematics%29) of the form `f(n) = …`
 - Logical [conjunction](http://en.wikipedia.org/wiki/Logical_conjunction) and [disjunction](http://en.wikipedia.org/wiki/Logical_disjunction) ("and" and "or"), signified by the operators `&&` and `||`, respectively
 
 ### Year length
